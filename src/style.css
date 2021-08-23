@@ -1,1 +1,19 @@
 /* styles go here */
+body { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin: 10px;
+}
+
+label {
+  display: block;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+}
