@@ -12,24 +12,20 @@
   </head>
   <body>
     <h1>HTML Form</h1>
-
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      
       <fieldset class="personal-info">
-        <legend>Personal information!</legend>
+        <legend>Personal information</legend>
         <label for="surname">Surname: <input type="text" autocomplete="disable" name="surname" id="surname"></label>
         <label for="name1">Name: <input type="text" name="name1" autocomplete="disable"  id="name1"></label> 
         <label for=""numb>How old are You? <input type="number" value="12" max="" name="num" id="numb"></label> 
         <label for="date1">Full date if birth: <input type="date" name="date" id="date1"></label> 
         <label for="agree1">I accept the term of the agreement: <input type="checkbox" name="agree" id="egree1"></label> 
       </fieldset>
-
       <fieldset class="registration-info">
         <legend>Registration</legend>
         <label for="e-mail">E-mail: <input type="email" name="" id="e-mail" placeholder="email@example.com"></label> 
         <label for="paasword1"> Password: <input type="password" name="paasword" id="paasword1"></label>
       </fieldset>
-
       <fieldset class="interesting-info">
         <legend>An interesting fact about you!</legend>
         <label for="interesting">Do you love cats?
@@ -46,18 +42,13 @@
         </select> </label>
         <label for="">How is your favorite brand of cars? <input type="range" value="0" name="range" id="range"></label>
       </fieldset>
-
       <fieldset class="additional-info">
         <legend>Additional info:</legend>
         <label for="comments">Comments: <textarea name="textarea" id="textarea" cols="15" rows="2"></textarea></label>
         <label for="recommend">Would you recommend us? </label>
       </fieldset>
-
-      
-
       <button type="submit" onsubmit="onSubmit()">Submit</button>
     </form>
-
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
