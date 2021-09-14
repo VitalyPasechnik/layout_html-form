@@ -1,20 +1,25 @@
+/* styles go here */
 body {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
+h1 {
+  display: none;
+}
+
 fieldset {
-  margin: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
 }
 
 label {
   display: block;
+  margin-bottom: 10px;
 }
 
-input {
-  margin: 10px;
-}
+/* last-child:input {
+  margin-bottom: 0;
+} */
 
 button {
   margin: 20px;
