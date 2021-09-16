@@ -1,10 +1,5 @@
-/* styles go here */
 body {
   box-sizing: border-box;
-}
-
-h1 {
-  display: none;
 }
 
 fieldset {
@@ -15,14 +10,6 @@ fieldset {
 label {
   display: block;
   margin-bottom: 10px;
-}
-
-/* last-child:input {
-  margin-bottom: 0;
-} */
-
-button {
-  margin: 20px;
 }
 
 .interesting-check {

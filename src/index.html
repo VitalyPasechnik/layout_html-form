@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="personal-info">
         <legend>Personal information</legend>
@@ -19,9 +18,10 @@
           Surname:
           <input
             type="text"
-            autocomplete="disable"
+            autocomplete="off"
             name="surname"
-            id="surname">
+            id="surname"
+          >
         </label>
         <label for="name">
           Name:
@@ -29,7 +29,8 @@
             type="text"
             name="name"
             autocomplete="disable"
-            id="name">
+            id="name"
+          >
         </label>
         <label for="numb">
           How old are You?
@@ -39,38 +40,43 @@
             max="100"
             min="0"
             name="num"
-            id="numb">
+            id="numb"
+          >
         </label>
         <label for="date">
           Full date of birth:
           <input
             type="date"
             name="date"
-            id="date">
+            id="date"
+          >
         </label>
         <label for="agree">
           I accept the term of the agreement
           <input
             type="checkbox"
             name="agree"
-            id="agree">
+            id="agree"
+          >
         </label>
       </fieldset>
       <fieldset class="registration-info">
         <legend>Registration</legend>
-        <label for="e-mail">
+        <label for="email">
           E-mail:
           <input
             type="email"
-            id="e-mail"
-            placeholder="email@example.com">
+            id="email"
+            placeholder="email@example.com"
+          >
         </label>
         <label for="paasword">
           Password:
           <input
             type="password"
             name="paasword"
-            id="paasword">
+            id="paasword"
+          >
         </label>
       </fieldset>
       <fieldset class="interesting-info">
@@ -81,14 +87,16 @@
             <input
               type="radio"
               name="interesting"
-              id="interesting">
+              id="interesting"
+            >
             Yes
           </label>
           <label for="not-interesting">
             <input
               type="radio"
               name="interesting"
-              id="not-interesting">
+              id="not-interesting"
+            >
             No
           </label>
         </div>
@@ -97,13 +105,15 @@
           <input
             type="color"
             name="color"
-            id="color">
+            id="color"
+          >
         </label>
         <label for="dateTime">
           What time do you go to bed?
           <input type="time"
             name="dateTime"
-            id="dateTime">
+            id="dateTime"
+          >
         </label>
         <label for="car">
           What are your favorite brand of cars?
@@ -123,7 +133,8 @@
             type="range"
             value="0"
             name="range"
-            id="range">
+            id="range"
+          >
         </label>
       </fieldset>
       <fieldset class="additional-info">
@@ -134,7 +145,8 @@
             name="textarea"
             id="textarea"
             cols="15"
-            rows="2">
+            rows="2"
+          >
           </textarea>
         </label>
         <label for="recomend">
